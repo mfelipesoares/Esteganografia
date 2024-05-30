@@ -1,5 +1,17 @@
 #ifndef __LOAD_PNG__
 #define __LOAD_PNG__
+/*
+Aluno: Marcos Felipe dos Santos Soares
+Disciplina: Algoritmos e Estrutura de dados II
+-------------------------------------------------------------------------
+    Neste arquivo encontra-se todas as funções utilizadas para se fazer
+    a esteganografia em uma imagem PNG.
+
+    Biblioteca utilizada para manipular PNG:
+    - SOIL: https://github.com/littlstar/soil
+
+------------------------------------------------------------------------
+*/
 typedef struct {
     unsigned char r, g, b;
 } RGB;

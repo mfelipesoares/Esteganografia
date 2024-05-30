@@ -1,1 +1,1 @@
-gcc main.c modulos.o soil.o -lpng -lm -lGL -lglut -o esteganografia && alias esteganografia='./esteganografia'
+gcc main.c modules/objects/modulos.o modules/objects/soil.o -lpng -lm -lGL -lglut -o esteganografia && alias esteganografia='./esteganografia'

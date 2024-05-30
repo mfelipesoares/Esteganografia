@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "modules/load_png.h"
-#include "modules/revela.h"
-#include "modules/esconde.h"
+#include "../modules/load_png.h"
+#include "../modules/revela.h"
+#include "../modules/esconde.h"
 
 /*
 Para esconder utilize os comando:

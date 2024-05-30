@@ -1,8 +1,18 @@
 #ifndef __ESCONDE__
 #define __ESCONDE__
 #include "load_png.h"
+/*
+Aluno: Marcos Felipe dos Santos Soares
+Disciplina: Algoritmos e Estrutura de dados II
+-------------------------------------------------------------------------
+    Neste arquivo encontra-se todas as funções utilizadas para se fazer
+    a esteganografia em uma imagem PNG.
 
+    Biblioteca utilizada para manipular PNG:
+    - SOIL: https://github.com/littlstar/soil
 
+------------------------------------------------------------------------
+*/
 /// @brief Função utilizada para fazer a esteganografia em uma imagem PNG
 /// @param imagem Struct que guarda a matriz de pixels do PNG
 /// @param frase_a_esconder Stream de caracteres da frase a ser escondida na imagem

@@ -1,3 +1,15 @@
+/*
+Aluno: Marcos Felipe dos Santos Soares
+Disciplina: Algoritmos e Estrutura de dados II
+-------------------------------------------------------------------------
+    Neste arquivo encontra-se todas as funções utilizadas para se fazer
+    a esteganografia em uma imagem PNG.
+
+    Biblioteca utilizada para manipular PNG:
+    - SOIL: https://github.com/littlstar/soil
+
+------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include "revela.h"
